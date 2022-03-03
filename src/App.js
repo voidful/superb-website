@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Redirect,
@@ -62,49 +62,49 @@ function App() {
     if (auth.isLoggedIn) {
         routes = (
             <Switch>
-                <Route path="/superb-website/" exact>
+                <Route path="/" exact>
                     <div className={`${classes.narrowViewport}`}>
                         <Landing />
                     </div>
                 </Route>
-                <Route path="/superb-website/news">
+                <Route path="/news">
                     <div className={`${classes.narrowViewport}`}>
                         <News />
                     </div>
                 </Route>
-                <Route path="/superb-website/tasks">
+                <Route path="/tasks">
                     <div className={`${classes.narrowViewport}`}>
                         <Tasks />
                     </div>
                 </Route>
-                <Route path="/superb-website/rules">
+                <Route path="/rules">
                     <div className={`${classes.narrowViewport}`}>
                         <Rules />
                     </div>
                 </Route>
-                <Route path="/superb-website/compare">
+                <Route path="/compare">
                     <div className={`${classes.narrowViewport}`}>
                         <Compare />
                     </div>
                 </Route>
-                <Route path="/superb-website/leaderboard">
+                <Route path="/leaderboard">
                     <Leaderboard
                         height={`${height - navbarHeight}px`}
                         tableControlRef={tableControlRef}
                     />
                 </Route>
-                <Route path="/superb-website/challenge">
+                <Route path="/challenge">
                     <div className={`${classes.narrowViewport}`}>
                         <Challenge />
                     </div>
                 </Route>
-                <Route path="/superb-website/profile" exact>
+                <Route path="/profile" exact>
                     <Profile tableControlRef={tableControlRef} />
                 </Route>
-                <Route path="/superb-website/logout">
+                <Route path="/logout">
                     <Logout />
                 </Route>
-                <Route path="/superb-website/submit">
+                <Route path="/submit">
                     <div className={`${classes.narrowViewport}`}>
                         <SubmitForm login={true} />
                     </div>
@@ -114,43 +114,43 @@ function App() {
     } else {
         routes = (
             <Switch>
-                <Route path="/superb-website/" exact>
+                <Route path="/" exact>
                     <div className={`${classes.narrowViewport}`}>
                         <Landing />
                     </div>
                 </Route>
-                <Route path="/superb-website/news">
+                <Route path="/news">
                     <div className={`${classes.narrowViewport}`}>
                         <News />
                     </div>
                 </Route>
-                <Route path="/superb-website/tasks">
+                <Route path="/tasks">
                     <div className={`${classes.narrowViewport}`}>
                         <Tasks />
                     </div>
                 </Route>
-                <Route path="/superb-website/rules">
+                <Route path="/rules">
                     <div className={`${classes.narrowViewport}`}>
                         <Rules />
                     </div>
                 </Route>
-                <Route path="/superb-website/leaderboard">
+                <Route path="/leaderboard">
                     <Leaderboard
                         height={`${height - navbarHeight}px`}
                         tableControlRef={tableControlRef}
                     />
                 </Route>
-                <Route path="/superb-website/challenge">
+                <Route path="/challenge">
                     <div className={`${classes.narrowViewport}`}>
                         <Challenge />
                     </div>
                 </Route>
-                <Route path="/superb-website/submit">
+                <Route path="/submit">
                     <div className={`${classes.narrowViewport}`}>
                         <SubmitForm login={false} />
                     </div>
                 </Route>
-                <Route path="/superb-website/login">
+                <Route path="/login">
                     <div
                         className={`${classes.narrowViewport} ${classes.LoginButton}`}
                     >
