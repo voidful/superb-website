@@ -26,6 +26,8 @@ jobs:
           cache: 'yarn'
       - run: yarn install
       - run: yarn build
+        env:
+          CI: false
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
