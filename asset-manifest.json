@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/superb-website/static/css/main.3e34810a.chunk.css",
-    "main.js": "/superb-website/static/js/main.3a06029a.chunk.js",
-    "main.js.map": "/superb-website/static/js/main.3a06029a.chunk.js.map",
-    "runtime-main.js": "/superb-website/static/js/runtime-main.c292b6a0.js",
-    "runtime-main.js.map": "/superb-website/static/js/runtime-main.c292b6a0.js.map",
+    "main.js": "/superb-website/static/js/main.a3af237a.chunk.js",
+    "main.js.map": "/superb-website/static/js/main.a3af237a.chunk.js.map",
+    "runtime-main.js": "/superb-website/static/js/runtime-main.d7d17892.js",
+    "runtime-main.js.map": "/superb-website/static/js/runtime-main.d7d17892.js.map",
     "static/css/2.bcb4bff2.chunk.css": "/superb-website/static/css/2.bcb4bff2.chunk.css",
-    "static/js/2.19fe8b35.chunk.js": "/superb-website/static/js/2.19fe8b35.chunk.js",
-    "static/js/2.19fe8b35.chunk.js.map": "/superb-website/static/js/2.19fe8b35.chunk.js.map",
-    "static/js/3.afb9be77.chunk.js": "/superb-website/static/js/3.afb9be77.chunk.js",
-    "static/js/3.afb9be77.chunk.js.map": "/superb-website/static/js/3.afb9be77.chunk.js.map",
+    "static/js/2.cb656ae2.chunk.js": "/superb-website/static/js/2.cb656ae2.chunk.js",
+    "static/js/2.cb656ae2.chunk.js.map": "/superb-website/static/js/2.cb656ae2.chunk.js.map",
+    "static/js/3.d9ba306f.chunk.js": "/superb-website/static/js/3.d9ba306f.chunk.js",
+    "static/js/3.d9ba306f.chunk.js.map": "/superb-website/static/js/3.d9ba306f.chunk.js.map",
     "index.html": "/superb-website/index.html",
     "static/css/2.bcb4bff2.chunk.css.map": "/superb-website/static/css/2.bcb4bff2.chunk.css.map",
     "static/css/main.3e34810a.chunk.css.map": "/superb-website/static/css/main.3e34810a.chunk.css.map",
-    "static/js/2.19fe8b35.chunk.js.LICENSE.txt": "/superb-website/static/js/2.19fe8b35.chunk.js.LICENSE.txt",
+    "static/js/2.cb656ae2.chunk.js.LICENSE.txt": "/superb-website/static/js/2.cb656ae2.chunk.js.LICENSE.txt",
     "static/media/katex.min.css": "/superb-website/static/media/KaTeX_Typewriter-Regular.9f1a86cb.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.c292b6a0.js",
+    "static/js/runtime-main.d7d17892.js",
     "static/css/2.bcb4bff2.chunk.css",
-    "static/js/2.19fe8b35.chunk.js",
+    "static/js/2.cb656ae2.chunk.js",
     "static/css/main.3e34810a.chunk.css",
-    "static/js/main.3a06029a.chunk.js"
+    "static/js/main.a3af237a.chunk.js"
   ]
 }
